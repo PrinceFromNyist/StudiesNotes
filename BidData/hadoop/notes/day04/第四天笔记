@@ -46,3 +46,5 @@ jdk自带的还传递了类的继承结构信息
 
 
 ***问题****
+1.在本地push：
+Failed with error: The remote end hung up unexpectedly The remote end hung up unexpectedly RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
