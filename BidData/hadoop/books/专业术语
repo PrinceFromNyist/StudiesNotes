@@ -1,0 +1,11 @@
+1.数据流图（2018-08-30）
+
+2.Java的虚方法：
+
+
+3.Java泛型Mapper和Reducer类
+
+4.Java的String类型的substring(startIndex,endIndex)方法
+参考：http://www.runoob.com/java/java-string-substring.html
+前者索引包括，后者不包括。
+索引是从0开始的。
