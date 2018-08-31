@@ -49,4 +49,7 @@ MapReduce不仅是一种编程模型，还是一种数据的并行处理框架�
 Text相当于Java的String类型。
 而IntWritable相当于Java的Integer类型。
 
+12.在调试MapReduce作业时，知道作业id和任务id是非常有用的。
+
+
 
