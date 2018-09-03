@@ -9,3 +9,37 @@
 参考：http://www.runoob.com/java/java-string-substring.html
 前者索引包括，后者不包括。
 索引是从0开始的。
+
+5.横向扩展（scaling out）
+
+6.数据流
+参考：一个reduce任务的MapReduce数据流，位于P66
+
+7.MapReduce作业（job）
+任务（task）：map和reduce
+jobtracker
+tasktracker
+输入分片（input split），简称分片
+
+8.客户端&&服务端&&服务器
+
+9.从jobtracker和tasktracker认识任务调度
+
+10.负载均衡（负载平衡，一般出现在大规模数据的并行处理过程中）
+
+11.hdfs块
+默认大小事64M。
+
+12.数据本地化优化（data locality optimization）
+
+13.集群带宽
+网络带宽
+
+14.机架
+
+15.分区（partition）
+
+16.混洗（shuffle）
+
+
+
