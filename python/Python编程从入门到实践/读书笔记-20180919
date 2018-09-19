@@ -1,0 +1,48 @@
+1.作者独白：
+如何学习编写第一个程序，每个程序员都有不同的故事。我还是个孩子时就开始学习编程了，当时我父亲在计算时代的先锋之一——数字设备公司（Digital Equipment Corporation）
+工作。我使用一台简陋的计算机编写了第一个程序，这台计算机是父亲在家里的地下室组装而成的，它没有机箱，裸露的主板与键盘相连，显示器是裸露的阴极射线管。我编写
+的这个程序是一款简单的猜数字游戏，其输出类似于下面这样：
+I'm thinking of a number! Try to guess the number I'm thinking of: 25
+Too low! Guess again: 50
+Too high! Guess again: 42
+That's it! Would you like to play again? (yes/no) no
+Thanks for playing!
+看到家人玩着我编写的游戏，而且它完全按我预期的方式运行，我心里不知有多满足。此情此景我永远都忘不了。
+儿童时期的这种体验一直影响我至今。现在，每当我通过编写程序解决了一个问题时，心里都会感到非常满足。相比于孩提时期，我现在编写的软件满足了更大的需求，但通过
+编写程序获得的满足感几乎与从前一样。
+2.选择一门编程语言，要看社区的活跃程度，看遇到问题，能否得到别人的帮助。
+3.编程语言与编程语言解释器
+java与jdk
+python与python解释器
+4.代码&&代码片段
+
+5.终端会话&&console
+
+6.作者原话：
+长期以来，编程界都认为刚接触一门新语言时，如果首先使用它来编写一个在屏幕上显示消息“Hello world!”的程序，将给你带来好运。
+
+7.Python的版本：
+python 2.x
+python 3.x
+
+8.python是一种跨平台的编程语言
+要知道在每种主流的操作系统中的搭建过程。
+
+9.centos7 自带python 2.7.5
+作者原话：
+Linux系统是为编程而设计的，因此在大多数Linux计算机中，都默认安装了Python。编写和维护Linux的人认为，你很可能会使用这种系统进行编程，他们也鼓励你这样做。鉴于
+此，要在这种系统中编程，你几乎不用安装什么软件，也几乎不用修改设置。
+
+10.pdf中的文件，可以直接选中复制，即使是图片也可以
+
+
+
+***问题***
+1.[zengqiang.wang@localhost ~]$ sudo add-apt-repository ppa:fkrull/deadsnakes
+[sudo] zengqiang.wang 的密码：
+zengqiang.wang 不在 sudoers 文件中。此事将被报告。
+
+2.虚拟机和实体机之间进行数据传输，复制，粘贴等需求。
+
+
+
