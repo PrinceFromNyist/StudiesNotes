@@ -1,0 +1,28 @@
+1.繁体字学习
+
+
+2.计算机说的100G，但是格式化后小于100G原因？
+因为厂家用的是十进制。
+
+3.cpu，硬盘与内存的关系
+内存是可以直接与CPU交互的硬件
+如果cpu是大脑的话，内存是当前记忆，而硬盘是历史记忆。
+所有历史记忆，都要放到当前记忆，才可以被大脑识别，处理。
+
+4.X86 和 X86_64架构
+一切源于早期的Intel的那枚代号为8086的CPU
+
+5.位
+1 byte = 8 bits
+
+6.计算机运算单位
+bit
+Byte
+Kilo Bytes（KB）
+Mega Bytes（MB）
+Giga Bytes（GB）
+Tera Bytes（TB）
+Peta Bytes（PB）
+Exa Bytes（EB）
+Zetta Bytes（ZB）
+由上向下，后者是前者的1024倍
