@@ -1,0 +1,125 @@
+***知识点
+一.变量
+1.变量类型
+1）基本类型：
+**数字型
+**字符串型（单引号或者双引号，但是要注意要统一）
+**布尔型
+
+2.变量命名
+1）原则：
+**驼峰命名原则，
+**以字母，下划线，或者$开头
+**命名中不能出现JavaScript关键字，比如：if
+
+3.变量的声明及赋值
+1）以var关键字声明
+2）如果在声明的同时赋值，var可以省略
+3）如果只是声明，var不能省略
+
+二.表达式
+1.表达式一般是个运算式子，一般都有一个结果，通过=赋予给一个变量
+
+三.注释
+1.和java一致
+1）单行注释
+//...
+2)多行注释
+/*
+...
+*/
+
+四.流程控制
+1.顺序执行
+2.条件执行（if..else if ........else）
+3.多次执行(while，for等)
+
+五.代码块（code block）
+1.一般是以{}区分
+2.一个code block有很多的statement，每个statement以分号结束
+
+六.JavaScript的嵌入HTML方式
+1）内部
+一般出现在head标签或者body标签中
+不过建议使用放在body后面，因为不会出现打开一个网页，光加载head中的内容就要等待半天，
+放在body中即使js没有加载，不影响页面的显示。
+在head中如下：
+...
+<head>
+    ...
+    <script type="text/javascript">
+    ...//write some js codes
+    </script>
+</head>
+...
+在body中如下：
+<body>
+    ...
+    <script type="text/javascript">
+    ...//write some js codes
+    </script>
+</body>
+备注：其中type属性可以省略
+
+2）外部
+一般是连接一个js文件（就是把内部里面的js代码保存到.js文件中）。
+导入外部如下：
+在head中如下：
+...
+<head>
+    ...
+    <script src='outfile.js'>
+    ...//don't write anything,just leave it alone
+    </script>
+</head>
+...
+在body中如下：
+<body>
+    ...
+    <script src='outfile.js'>
+    ...//don't write anything,just leave it alone
+    </script>
+</body>
+
+3）备注：
+两者不可以同时使用。
+
+
+
+
+***收获
+1.HTML，CSS与JavaScript三者在web page中扮演的角色
+1）HTML：静态页面（用户直接看到的页面）
+2）CSS：样式文件（使页面更美观，与用户体验有关）
+3）JavaScript：为网页的元素赋予行为（是网页产生动态交互的核心）
+
+
+2.最简单的HTML样板
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>write your page name</title>
+        <meta charset="utf-8">
+        ...
+    </head>
+    <body>...</body>
+</html>
+备注：
+1)HTML注释：
+<!--...-->
+2)html对大小写不敏感
+
+
+3.书中每章后面的填字游戏很有意思。
+
+
+***开发工具
+1.浏览器（最少两款，Google Chrome或者Firefox）
+2.IDE（Dreamweaver或者webStorm）
+
+
+***辅助性工具：
+1.源码网址：
+http://wickedlysmart.com/hfjs
+2.w3school在线学习网址：
+http://www.w3school.com.cn/js/js_intro.asp
